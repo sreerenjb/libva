@@ -70,6 +70,7 @@ const char *vaEntrypointStr(VAEntrypoint entrypoint)
     TOSTR(VAEntrypointEncSliceLP);
     TOSTR(VAEntrypointVideoProc);
     TOSTR(VAEntrypointFEI);
+    TOSTR(VAEntrypointStats);
     }
     return "<unknown entrypoint>";
 }
